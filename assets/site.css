@@ -1,0 +1,87 @@
+:root {
+  --night: #090809;
+  --panel: #141112;
+  --cream: #eddeb8;
+  --muted: #b3a88f;
+  --red: #b8120d;
+  --amber: #ffad42;
+  --rule: #2a2223;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--night);
+  color: var(--cream);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 48px 16px 64px;
+}
+
+a { color: var(--amber); text-underline-offset: 3px; }
+a:hover { color: #ffc77a; }
+
+h1, h2, .brand {
+  font-family: "Futura", "Futura PT", "Trebuchet MS", sans-serif;
+  font-stretch: condensed;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+}
+
+h1 { font-size: 40px; margin: 0 0 6px; text-transform: uppercase; }
+h2 { font-size: 22px; margin: 36px 0 8px; text-transform: uppercase; color: var(--cream); }
+
+p, li { color: var(--cream); }
+.lede { color: var(--muted); margin: 0 0 28px; }
+.small { color: var(--muted); font-size: 14px; }
+
+header.top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 20px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid var(--red);
+}
+
+header.top img {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  flex: none;
+}
+
+header.top .brand { font-size: 15px; text-transform: uppercase; color: var(--muted); margin: 0; }
+header.top .brand a { color: inherit; text-decoration: none; }
+
+nav.links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0 0 8px; }
+
+ul { padding-left: 20px; }
+li { margin: 6px 0; }
+
+.card {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+  margin: 12px 0;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  color: inherit;
+  text-decoration: none;
+}
+.card:hover { border-color: var(--red); color: inherit; }
+.card img { width: 64px; height: 64px; border-radius: 14px; flex: none; }
+.card .name { font-weight: 600; }
+.card .what { color: var(--muted); font-size: 15px; }
+
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); }
