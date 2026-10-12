@@ -27,19 +27,25 @@
       apps or websites.</li>
     <li><strong>Anonymous usage statistics.</strong> To learn how InkBlot Duo is used and make it better, the
       app sends anonymous statistics to PostHog, an analytics service: that the app was opened and for how long,
-      which tools and inks were used, how a sheet was folded and opened, which screens were visited, and the
-      device model, system version, screen size, language, whether it's on Wi-Fi or cellular, and the app
-      version. Each installation is known only by a random number made up on the device. It isn't tied to your
+      which tools and inks were used, how a sheet was folded and opened, and which screens were visited. With
+      them go a few facts about the device and the app: the device model, system version, screen size,
+      language, whether it's on Wi-Fi or cellular, the app's name and version, whether it came from the App
+      Store or TestFlight, a random number for each visit, and the version of PostHog's software in the app.
+      Each installation is known only by a random number made up on the device. It isn't tied to your
       name, your Apple Account or anything else about you. Your prints, the names you give them and anything
       you type are never sent. Your location isn't collected: the app asks PostHog not to look up where the
       connection comes from, internet addresses are discarded, and the device's time zone is left out. You can
-      turn the statistics off at any time in Settings, under Share anonymous usage statistics.</li>
+      turn the statistics off at any time in Settings, under Share anonymous usage statistics. That stops the
+      recording at once: what was already recorded may still be sent, and after that the app doesn't contact
+      PostHog at all.</li>
     <li><strong>What stays on your device.</strong> Your prints, the inks you mix, your best scores and your
       settings are kept in the app's own storage on your device. Deleting the app deletes them.</li>
     <li><strong>Motion.</strong> If you turn on Tilt, InkBlot Duo reads which way the device is tilted so wet ink
-      can run downhill. It isn't stored and never leaves the device.</li>
+      can run downhill. The readings aren't stored and never leave the device; the statistics say only whether
+      Tilt was on.</li>
     <li><strong>The hinge.</strong> On iPhone Duo, InkBlot Duo reads whether the phone is open or shut, to press
-      the pages together. Nothing about it leaves the device.</li>
+      the pages together. The readings stay on the device; the statistics say only that the device is an
+      iPhone Duo and whether a sheet was folded or opened with the hinge.</li>
     <li><strong>Sharing.</strong> When you share a print, InkBlot Duo hands the picture to the share sheet and
       you choose where it goes. InkBlot Duo itself sends nothing.</li>
     <li><strong>Children.</strong> InkBlot Duo isn't directed at children, and the anonymous statistics are the
