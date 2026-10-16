@@ -3,7 +3,7 @@
 The Bala Technologies LLC website, served by GitHub Pages from `main`. Plain HTML, no build step.
 
 - `/` — company page
-- `/uphill/` — Uphill Duo: Roll Ball Game
+- `/uphill/` — Uphill: Bowling Arcade Game
 - `/uphill/support/` — App Store support URL
 - `/uphill/privacy/` — App Store privacy policy URL. Keep it in step with
   `docs/PRIVACY.md` and `PrivacyPolicyView.swift` in the uphill-iOS repo.
