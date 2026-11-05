@@ -7,6 +7,8 @@ The Bala Technologies LLC website, served by GitHub Pages from `main`. Plain HTM
 - `/uphill/support/` — App Store support URL
 - `/uphill/privacy/` — App Store privacy policy URL. Keep it in step with
   `docs/PRIVACY.md` and `PrivacyPolicyView.swift` in the uphill-iOS repo.
+- `/yehdor/` — YehDor (party games). `/yehdor/support/` and `/yehdor/privacy/` are its App Store
+  support and privacy policy URLs; keep the policy in step with `PRIVACY.md` in the Bazna repo.
 
 ## Custom domain
 
