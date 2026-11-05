@@ -9,6 +9,7 @@ The Bala Technologies LLC website, served by GitHub Pages from `main`. Plain HTM
   `docs/PRIVACY.md` and `PrivacyPolicyView.swift` in the uphill-iOS repo.
 - `/yehdor/` — YehDor (party games). `/yehdor/support/` and `/yehdor/privacy/` are its App Store
   support and privacy policy URLs; keep the policy in step with `PRIVACY.md` in the Bazna repo.
+- `/app-ads.txt` — AdMob's authorized-sellers file (publisher pub-5064221507178038, account balatechnologiesllc@gmail.com). It must stay at the root of the domain named as each app's marketing URL.
 
 ## Custom domain
 
