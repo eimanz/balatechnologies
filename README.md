@@ -3,10 +3,13 @@
 The Bala Technologies LLC website, served by GitHub Pages from `main`. Plain HTML, no build step.
 
 - `/` — company page
-- `/uphill/` — Uphill: Bowling Arcade Game
+- `/uphill/` — Uphill: Ball Roll Arcade Game (its App Store marketing URL; keep the name, price and
+  screenshots in step with `docs/app-store/metadata.md` in uphill-iOS)
+- `/iphone-duo-games/` — the iPhone Duo games page (Uphill and InkBlot), for search
 - `/uphill/support/` — App Store support URL
 - `/uphill/privacy/` — App Store privacy policy URL. Keep it in step with
   `docs/PRIVACY.md` and `PrivacyPolicyView.swift` in the uphill-iOS repo.
+- `/sitemap.xml`, `/robots.txt` — for search engines; add new pages to the sitemap.
 - `/yehdor/` — YehDor (party games). `/yehdor/support/` and `/yehdor/privacy/` are its App Store
   support and privacy policy URLs; keep the policy in step with `PRIVACY.md` in the Bazna repo.
 - `/app-ads.txt` — AdMob's authorized-sellers file (publisher pub-5064221507178038, account balatechnologiesllc@gmail.com). It must stay at the root of the domain named as each app's marketing URL.

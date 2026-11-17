@@ -85,3 +85,14 @@ li { margin: 6px 0; }
 .card .what { color: var(--muted); font-size: 15px; }
 
 footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); }
+
+/* Store-style screenshots in a scrolling row, and the buy / try buttons. */
+.shots { display: flex; gap: 12px; overflow-x: auto; padding: 4px 0 12px; margin: 20px 0; scroll-snap-type: x mandatory; }
+.shots img { width: 200px; max-width: 60vw; height: auto; border-radius: 16px; flex: none; scroll-snap-align: start; border: 1px solid var(--rule); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0 8px; }
+.button { display: inline-block; padding: 12px 20px; border-radius: 12px; font-weight: 700; text-decoration: none; }
+.button.primary { background: var(--red); color: var(--cream); }
+.button.secondary { border: 1px solid var(--amber); color: var(--amber); }
+.button:hover { filter: brightness(1.1); }
+dl dt { font-weight: 700; margin-top: 16px; }
+dl dd { margin: 4px 0 0; color: var(--cream); }
